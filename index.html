@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Trivia Game</title>
+<!-- LINK TO BOOTSTRAP and CUSTOM CSS -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<section class="container">
+		<div class="jumbotron">
+			<h1 class="text-center"><strong>I LIVED THE 80s TRIVIA!</strong></h1>
+		</div>
+
+		<div class="flex-center">
+			<div class="flex-center col-lg-6">
+				<div class="panel panel-default">
+					<div class="panel-heading text-center">
+						<div id="show-number">
+						</div>
+					</div>
+
+					<div class="panel-body text-left">
+						<div id="qAndA">
+							<div class="triviaQuestions text-bold"></div>
+							<button class="btn btn-default btn-xs text-left" value=1> A </button>  <span class="answers" id="a">" "</span>
+							<br>
+							<button class="btn btn-default btn-xs text-left" value=2> B </button>  <span class="answers" id="b">" "</span>
+							<br>
+							<button class="btn btn-default btn-xs text-left" value=3> C </button>  <span class="answers" id="c">" "</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="imageDiv"></div>
+		</div>
+	</section>
+	
+
+
+<!-- LINK TO JQUERY and CUSTOM JAVASCRIPT -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
